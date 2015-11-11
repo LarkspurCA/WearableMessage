@@ -9,6 +9,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.DeviceDefault" >
+
+        <!--To run on pre-22, set required to false -->
+        <uses-library android:name="com.google.android.wearable" android:required="false" />
+
         <activity
             android:name=".MessageActivity"
             android:label="@string/app_name" >
